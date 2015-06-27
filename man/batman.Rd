@@ -16,5 +16,6 @@ A Batman-themed list.
 Replicate an extremely cheesy theme song.
 }
 \examples{
-You'll just have to run it and see for yourself. ;-)
+Run it and see for yourself. ;-)
 }
+
