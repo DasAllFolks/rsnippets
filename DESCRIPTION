@@ -9,7 +9,5 @@ Authors@R: person("Steven", "Das", email = "steven.c.das@gmail.com",
 URL: https://github.com/DasAllFolks/rsnippets
 BugReports: https://github.com/DasAllFolks/rsnippets/issues
 Depends: R (>= 3.2.1)
-Suggests:
-    testthat,
 License: Apache License 2.0
 LazyData: true
