@@ -6,4 +6,5 @@
 batman <- function(n) {
     list_ <- as.list(rep(NaN, n + 1))
     list_[n + 1] <- 'Batman!'
+    list_
 }
