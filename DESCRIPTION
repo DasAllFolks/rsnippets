@@ -1,8 +1,15 @@
 Package: rsnippets
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph)
+Type: Package
+Version: 0.0.0.8675309
+Title: Some (Mostly Silly) Throwaway Code for Learning R
+Description: This package contains a menagerie of oddball and mostly useless
+    functions intended strictly to help its author learn R more quickly.
+Authors@R: person("Steven", "Das", email = "steven.c.das@gmail.com",
+                  role = c("aut", "cre"))
+URL: https://github.com/DasAllFolks/rsnippets
+BugReports: https://github.com/DasAllFolks/rsnippets/issues
 Depends: R (>= 3.2.1)
-License: What license is it under?
+Suggests:
+    testthat,
+License: Apache License 2.0
 LazyData: true
