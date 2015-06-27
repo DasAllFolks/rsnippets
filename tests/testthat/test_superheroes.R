@@ -5,5 +5,5 @@ test_that('batman returns singleton list with "Batman!" for a zero input', {
 })
 
 test_that('batman method returns appropriate number of Nans for input', {
-    expect_equal(batman(3), list(NaN, NaN, NaN, NaN, 'Batman!'))
+    expect_equal(batman(4), list(NaN, NaN, NaN, NaN, 'Batman!'))
 })
