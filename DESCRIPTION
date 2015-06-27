@@ -1,6 +1,6 @@
 Package: rsnippets
 Type: Package
-Version: 0.0.0.8675309
+Version: 0.0.0.9000
 Title: Some (Mostly Silly) Throwaway Code for Learning R
 Description: This package contains a menagerie of oddball and mostly useless
     functions intended strictly to help its author learn R more quickly.
