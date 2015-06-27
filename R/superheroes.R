@@ -5,5 +5,7 @@
 #' @examples
 #' You'll just have to run it and see for yourself. ;-)
 batman <- function(n) {
-  # TODO
+    if (n < 0) {
+        stop('n must be a positive integer')
+    }
 }
