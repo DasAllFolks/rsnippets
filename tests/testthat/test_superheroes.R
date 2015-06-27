@@ -1,17 +1,17 @@
 context('Superheroes')
 
 test_that('batman method errors for a non-integer input', {
-    # TODO
+    expect_error(batman(0.2352))
 })
 
 test_that('batman method errors for a negative integral input', {
-    # TODO
+    expect_error(batman(-1))
 })
 
-test_that('batman method just returns "Batman!" for a zero input', {
-    # TODO
+test_that('batman returns singleton list with "Batman!" for a zero input', {
+    expect_equal(batman(0), c('Batman!'))
 })
 
 test_that('batman method returns appropriate number of Nans for input', {
-    # TODO
+    expect_equal(batman(3), c(NaN, NaN, NaN, NaN, 'Batman!'))
 })
