@@ -5,5 +5,6 @@
 #' @examples
 #' You'll just have to run it and see for yourself. ;-)
 batman <- function(n) {
-    # TODO
+    list_ <- rep(NaN, n)
+    list_[n] <- 'Batman!'
 }
