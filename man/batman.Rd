@@ -7,15 +7,12 @@
 batman(n)
 }
 \arguments{
-\item{n}{A number.  Restrictions are the same as for the times param of rep.}
+\item{n}{A number.  Number of NaNs desired in the output.}
 }
 \value{
 A Batman-themed list.
 }
 \description{
 Replicate an extremely cheesy theme song.
-}
-\examples{
-Run it and see for yourself. ;-)
 }
 
